@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { label: "Services", href: "#services" },
@@ -14,8 +15,8 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-foreground/80 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
-        <a href="#" className="font-display text-xl font-bold text-primary-foreground tracking-wide">
-          H&D Services
+        <a href="#" className="flex items-center gap-2">
+          <img src={logo} alt="H&D Services LLC" className="h-10 w-auto" />
         </a>
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
