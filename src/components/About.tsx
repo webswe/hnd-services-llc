@@ -1,16 +1,16 @@
 import { Check } from "lucide-react";
 
 const stats = [
-  { value: "15+", label: "Years Experience" },
-  { value: "2,500+", label: "Projects Completed" },
-  { value: "98%", label: "Client Satisfaction" },
+  { value: "500+", label: "Projects Completed" },
+  { value: "100%", label: "Satisfaction Goal" },
+  { value: "5★", label: "Google Rating" },
 ];
 
 const highlights = [
   "Licensed & fully insured",
-  "Locally owned & operated",
-  "Eco-friendly practices",
-  "Satisfaction guaranteed",
+  "Locally owned & operated in Marietta, GA",
+  "Clean, professional work crews",
+  "Free estimates — no obligation",
 ];
 
 const About = () => {
@@ -22,12 +22,12 @@ const About = () => {
             About Us
           </p>
           <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
-            Rooted in Quality,<br />Growing with You
+            Built on Trust,<br />Driven by Quality
           </h2>
           <p className="text-primary-foreground/80 font-body leading-relaxed mb-8 text-lg">
-            Cityscape Lawn & Landscape was founded with a simple mission: to bring 
-            professional-grade landscaping to every neighborhood. We combine horticultural 
-            expertise with an eye for design to create outdoor spaces that inspire.
+            H&D Services LLC is a Marietta-based home improvement company committed to
+            delivering honest, high-quality work. Whether it's a single room that needs
+            fresh paint or a full exterior renovation, we treat every project like it's our own home.
           </p>
           <ul className="space-y-3 mb-8">
             {highlights.map((h) => (

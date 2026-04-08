@@ -1,12 +1,12 @@
-import { Leaf, TreePine, Flower2, Shovel, Droplets, Sun } from "lucide-react";
+import { Paintbrush, Droplets, Hammer, LayoutGrid, PanelTop, Wrench } from "lucide-react";
 
 const services = [
-  { icon: Leaf, title: "Lawn Maintenance", desc: "Weekly mowing, edging, fertilization, and seasonal cleanups to keep your lawn pristine." },
-  { icon: TreePine, title: "Landscape Design", desc: "Custom designs that blend architecture with nature for stunning curb appeal." },
-  { icon: Flower2, title: "Garden Installation", desc: "From perennial beds to native plantings, we create gardens that thrive year-round." },
-  { icon: Shovel, title: "Hardscaping", desc: "Patios, retaining walls, walkways, and fire pits built to last." },
-  { icon: Droplets, title: "Irrigation Systems", desc: "Smart irrigation design, installation, and maintenance for water efficiency." },
-  { icon: Sun, title: "Seasonal Programs", desc: "Spring cleanups, fall leaf removal, snow management, and holiday lighting." },
+  { icon: Paintbrush, title: "Painting", desc: "Interior and exterior painting with premium paints and meticulous prep work for a flawless, long-lasting finish." },
+  { icon: Droplets, title: "Pressure Washing", desc: "Driveways, decks, siding, fences, and more — restored to like-new condition with professional-grade equipment." },
+  { icon: Hammer, title: "Carpentry", desc: "Custom trim, framing, door installation, deck building, and finish carpentry with expert craftsmanship." },
+  { icon: LayoutGrid, title: "Drywall", desc: "Installation, patching, texturing, and finishing for seamless walls and ceilings in any room." },
+  { icon: PanelTop, title: "Siding", desc: "Siding repair and installation — vinyl, fiber cement, and wood — to protect and beautify your home." },
+  { icon: Wrench, title: "Rotten Wood Repair", desc: "Structural and cosmetic wood rot repair for fascia, soffits, window frames, and decks before it spreads." },
 ];
 
 const Services = () => {
@@ -20,7 +20,7 @@ const Services = () => {
           Our Services
         </h2>
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-16 font-body">
-          From routine maintenance to complete landscape transformations, we deliver excellence at every scale.
+          From a fresh coat of paint to full structural repairs, H&D Services delivers quality home improvement at every scale.
         </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((s) => (
