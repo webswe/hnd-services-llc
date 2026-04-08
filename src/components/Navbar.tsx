@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-foreground/80 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
         <a href="#" className="font-display text-xl font-bold text-primary-foreground tracking-wide">
-          Cityscape
+          H&D Services
         </a>
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
@@ -27,8 +27,8 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
-          <a href="#contact" className="bg-accent text-accent-foreground px-5 py-2 rounded-md font-body font-semibold text-sm hover:opacity-90 transition-opacity">
-            Free Quote
+          <a href="tel:+14047981748" className="bg-accent text-accent-foreground px-5 py-2 rounded-md font-body font-semibold text-sm hover:opacity-90 transition-opacity">
+            (404) 798-1748
           </a>
         </div>
         <button onClick={() => setOpen(!open)} className="md:hidden text-primary-foreground">

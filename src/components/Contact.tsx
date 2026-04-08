@@ -9,10 +9,10 @@ const Contact = () => {
             Get In Touch
           </p>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Ready to Transform<br />Your Outdoor Space?
+            Ready to Improve<br />Your Home?
           </h2>
           <p className="text-muted-foreground font-body text-lg mb-10 leading-relaxed">
-            Request a free consultation and estimate. We'll visit your property, discuss your vision, and provide a detailed plan.
+            Request a free estimate — no obligation. We'll assess your project, discuss your goals, and provide a detailed quote.
           </p>
           <div className="space-y-6">
             <div className="flex items-center gap-4">
@@ -21,7 +21,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="font-body text-sm text-muted-foreground">Call Us</p>
-                <p className="font-body font-semibold text-foreground">(555) 123-4567</p>
+                <a href="tel:+14047981748" className="font-body font-semibold text-foreground hover:text-primary transition-colors">(404) 798-1748</a>
               </div>
             </div>
             <div className="flex items-center gap-4">
@@ -30,7 +30,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="font-body text-sm text-muted-foreground">Email</p>
-                <p className="font-body font-semibold text-foreground">info@cityscapelandscape.com</p>
+                <p className="font-body font-semibold text-foreground">info@hdservicesllc.com</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
@@ -39,7 +39,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="font-body text-sm text-muted-foreground">Service Area</p>
-                <p className="font-body font-semibold text-foreground">Greater Metro Area & Surrounding Counties</p>
+                <p className="font-body font-semibold text-foreground">Marietta, GA & Greater Atlanta Metro</p>
               </div>
             </div>
           </div>
@@ -56,17 +56,18 @@ const Contact = () => {
             </div>
           </div>
           <div>
-            <label className="block font-body text-sm font-medium text-foreground mb-2">Email</label>
-            <input type="email" className="w-full px-4 py-3 rounded-md border border-border bg-background font-body text-foreground focus:ring-2 focus:ring-primary/30 focus:border-primary outline-none transition-colors" />
+            <label className="block font-body text-sm font-medium text-foreground mb-2">Phone</label>
+            <input type="tel" className="w-full px-4 py-3 rounded-md border border-border bg-background font-body text-foreground focus:ring-2 focus:ring-primary/30 focus:border-primary outline-none transition-colors" />
           </div>
           <div>
             <label className="block font-body text-sm font-medium text-foreground mb-2">Service Interested In</label>
             <select className="w-full px-4 py-3 rounded-md border border-border bg-background font-body text-foreground focus:ring-2 focus:ring-primary/30 focus:border-primary outline-none transition-colors">
-              <option>Lawn Maintenance</option>
-              <option>Landscape Design</option>
-              <option>Garden Installation</option>
-              <option>Hardscaping</option>
-              <option>Irrigation Systems</option>
+              <option>Painting</option>
+              <option>Pressure Washing</option>
+              <option>Carpentry</option>
+              <option>Drywall</option>
+              <option>Siding</option>
+              <option>Rotten Wood Repair</option>
               <option>Other</option>
             </select>
           </div>

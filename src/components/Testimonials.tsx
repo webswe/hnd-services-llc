@@ -2,18 +2,18 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah M.",
-    text: "Cityscape completely transformed our backyard. The design team listened to every detail and delivered beyond our expectations. Our neighbors are jealous!",
+    name: "James T.",
+    text: "H&D Services repainted our entire exterior and it looks brand new. The crew was professional, on time, and cleaned up perfectly. Highly recommend!",
     rating: 5,
   },
   {
-    name: "David R.",
-    text: "We've used their lawn maintenance service for 3 years. Always punctual, always thorough. Our lawn has never looked better.",
+    name: "Maria G.",
+    text: "They repaired rotten wood on our deck and fascia boards, then pressure washed the whole house. It's like we have a new home. Great value for the price.",
     rating: 5,
   },
   {
-    name: "Jennifer L.",
-    text: "The patio and fire pit they built for us became the heart of our outdoor entertaining. Incredible craftsmanship and fair pricing.",
+    name: "Kevin W.",
+    text: "Needed drywall repair and interior painting after some water damage. H&D handled everything quickly and the finish is flawless. Will definitely call again.",
     rating: 5,
   },
 ];
